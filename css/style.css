@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/** Header **/
+header {
+    width: 100%;
+    height: 50px;
+    background-color: cornflowerblue;
+}
+
+
+/** Content **/
+#content {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+
+/** Table layout**/
+#content .table {
+    height: 100%;
+    background-color: aliceblue;
+    width: 50%;
+    float: left;
+}
+
+#content ul {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+
+#content ul:hover {
+    cursor: pointer;
+}
+
+#content ul li {
+    text-align: center;
+    width: 20%;
+    height: inherit;
+    float: left;
+    list-style: none;
+}
+
+.title {
+    text-transform: uppercase;
+    border-bottom: 1px solid #000000;
+}
+
+/** Form Det**/
+#content .form {
+    height: 100%;
+    background-color: antiquewhite;
+    margin-left: 50%;
+}
+
+#content .form div {
+    width: 100%;
+    height: 40px;
+}
+
+.selected {
+    background-color: greenyellow;
+}
+
+

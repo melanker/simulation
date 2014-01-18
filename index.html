@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/communication.js"></script>
+</head>
+<body>
+<header></header>
+    <div id="content">
+        <div class="table">
+            <ul class="title">
+                <li class="id">id</li>
+                <li class="creation">creation</li>
+                <li class="name">name</li>
+                <li class="car">car</li>
+                <li class="hat">hat</li>
+            </ul>
+        </div>
+        <div class="form">
+            <div> Username: <input id="person_name" type="text" name="user" /> </div>
+            <div> ID: <input id="person_id" type="text" name="id"></div>
+            <div>Select Occupation:
+                <select id="person_occuption" name="occupation">
+                    <option value="person">Person</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="manager">Manager</option>
+                </select>
+            </div>
+            <div> Wage: <input id="person_salary" type="text" name="salary" /></div>
+            <div> Car: <input id="person_car" type="text" name="car" /></div>
+            <input id="uid_input" type="hidden"/>
+            <div> <button id="submit_btn">Submit</button></div>
+            <div> <button id="edit_btn">Edit</button></div>
+        </div>
+    </div>
+</body>
+</html>
